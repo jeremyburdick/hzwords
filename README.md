@@ -7,7 +7,7 @@
 You can also restrict new words via
 1) Rankings and/or occurrence ratios from a word frequency list.
 2) Often forgotten characters in your existing Anki vocabulary.
-3) Evenly distributing words in your database so characters occur with similar frequecy.
+3) Evenly distributing words in your database so characters occur with similar frequency.
 4) Ignoring the most common characters (such as 大， 人， 小， etc).
 5) Eliminating proper nouns and archaic usages.
 
