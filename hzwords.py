@@ -5,7 +5,7 @@ Usage:
 	
 Options:
     -i CONFIGFILE    Config file (defaults to hzwords.ini, from HOME, ~, .)
-    -o OUTFILE       Ouptut file (defualt is stdout).
+    -o OUTFILE       Ouptut file (default is stdout).
     -j --justwords   Just output words (no other note fields).
     -v --verbose     Verbose output (overrides config).
     -n --nosounds    Don't generate sound files (overrides config).
@@ -327,14 +327,6 @@ def createKnownHanziStats(knownWords: KnownWordsDict):
 	return hzStats
 
 
-
-def delSymbols(hzDict):
-	dontKeep = ['。','？','.','<','>','?',',']
-
-	for dkHz in dontKeep:
-		hzDict.pop(dkHz, 0)
-
-	return hzDict
 
 
 def deleteKnownWordsAndUnknownAndTopHanzi(globWordFreq: Str_StrInt_Dict, vocabWords: KnownWordsDict, hzStats: HanziStatsDict, ignoreTopHanzi: int):
